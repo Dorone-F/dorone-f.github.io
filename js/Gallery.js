@@ -2,7 +2,7 @@
 var gallery = document.getElementById('gallery');
   
 // JSON object using fetch, each data for the gallery are store in this JSON oject
-fetch('js/Gallery.json') 
+fetch('js/gallery.json') 
   
 .then(function(res) {
     
