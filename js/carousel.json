@@ -1,0 +1,74 @@
+[  
+    {           
+        "url": "images/ImageFrame/customer/ImageConnexionCustomer.JPG",
+        "caption": "Customer Connexion"
+    },
+    {          
+        "url": "images/ImageFrame/customer/ImageCreateAccountCustomer.JPG",
+        "caption": "Customer Create Account"
+    },
+    {            
+        "url": "images/ImageFrame/customer/ImageCustomerMenu.JPG",
+        "caption": "Customer Menu"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageItemSelections.JPG",
+        "caption": "Customer Item Selection"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageViewItem.JPG",
+        "caption": "Customer View Item"
+    },
+    {            
+        "url": "images/ImageFrame/customer/ImageBag.JPG",
+        "caption": "Customer Shopping Bag"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageRecapPayment.JPG",
+        "caption": "Customer Recap Payment"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageValidatePayment.JPG",
+        "caption": "Customer Validate Payment"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageOrderItem.JPG",
+        "caption": "Customer Ordered Item"
+    },
+    {          
+        "url": "images/ImageFrame/customer/ImageBillCalculation.JPG",
+        "caption": "Customer Bill"
+    },
+    {
+        "url": "images/ImageFrame/customer/ImageAccountSetting.JPG",
+        "caption": "Customer Account Setting"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageUpdateCountryCustomer.JPG",
+        "caption": "Customer Update Country"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageUpdateMailCustomer.JPG",
+        "caption": "Customer Update Mail"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageUpdatePasswordCustomer.JPG",
+        "caption":"Customer Update Password"
+    },
+    {         
+        "url": "images/ImageFrame/customer/ImageCreditCartMenu.JPG",
+        "caption": "Customer Credit Card Menu"
+    },
+    {           
+        "url": "images/ImageFrame/customer/ImageAddCreditCard.JPG",
+        "caption": "Customer Add Credit Card"
+    },
+    {         
+        "url": "images/ImageFrame/customer/ImageConnexionCreditCardSetting.JPG",
+        "caption": "Customer Credit Card Setting Connexion "
+    },
+    {            
+        "url": "images/ImageFrame/customer/ImageCreditCardInformations.JPG",
+        "caption": "Customer Credit Card Information"
+    }
+]

@@ -1,0 +1,39 @@
+[  
+    {
+        "url": "images/ImageFrame/employee/ImageConnectionEmployee.JPG",
+        "caption": "Employee Connection"
+    },
+    {           
+        "url": "images/ImageFrame/employee/ImageMenuEmployee.JPG",
+        "caption": "Employee Menu"
+    },
+    {            
+        "url": "images/ImageFrame/employee/ImageAccountSettingEmployee.JPG",
+        "caption": "Employee Account Setting"
+    },
+    {          
+        "url": "images/ImageFrame/employee/ImageCustomerGestion.JPG",
+        "caption": "Employee Customer Gestion"
+    },
+    {         
+        "url": "images/ImageFrame/employee/ImageShopGestion.JPG",
+        "caption": "Employee Shop Gestion"
+    },
+    {           
+        "url": "images/ImageFrame/employee/ImageShopInformation.JPG",
+        "caption": "Employee Shop Informations"
+    },
+    {          
+        "url": "images/ImageFrame/employee/ImageUpdateCountryEmployee.JPG",
+        "caption": "Employee Update Country"
+    },
+    {         
+        "url": "images/ImageFrame/employee/ImageUpdateMailEmployee.JPG",
+        "caption": "Employee Update Mail"
+    },
+    {           
+        "url": "images/ImageFrame/employee/ImageUpdatePasswordEmployee.JPG",
+        "caption": "Employee Update Password"
+    }
+]
+

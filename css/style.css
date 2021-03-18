@@ -1,0 +1,614 @@
+/*
+* {
+  border: dashed 1px #ccc;
+}
+*/
+
+html, body {
+    font-family:'Roboto', sans-serif;  
+    background-image:linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px;
+    display: table;
+    height: 100%; 
+    width: 100%;   
+}
+
+.footer-all {
+    display: table-row;
+    height: 1px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background-color: white;
+    opacity: 0.8;
+}
+
+.footer-all nav {
+    display:flex;
+    width: 600px;
+    align-items:center;
+    margin:0 auto;
+    justify-content:space-evenly;    
+}
+
+.footer-all a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-all a:hover {
+    background-image:linear-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+}
+
+main {
+    padding: 25px;
+    flex-basis: 100%
+}
+
+main h1,h2 {
+    color: white;
+    opacity:0.8;
+}
+
+main h1 {
+    margin-top: 0px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main section article h2 {
+    text-align: center;
+    color: black;
+}
+
+img {
+    transition: 1s;
+}
+
+img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.02);
+}
+/******* home  ********/
+.container {
+    display:flex;
+    align-items: center;/* centrer horizontalement*/
+    justify-content:center;
+    flex-direction: column;/* afficher les elements en colonne*/
+    height: 89vh;
+
+}
+
+.container  h1{
+
+    font-size: 60px;
+    color: white;
+    opacity:0.8;
+    margin-block-start: 20px;
+    margin-block-end: 0em;
+    text-align: center;
+
+}
+
+.container nav {
+    display:flex;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px; 
+    opacity:0.8;
+    width: 600px;
+    line-height: 40px;
+    justify-content:space-evenly;
+
+}
+
+.container nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container nav a:hover {
+    background-image:linear-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+}
+
+.footer-home{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px; 
+    opacity:0.8;
+    display: table-row;
+    height: 1px;
+    text-align: center;
+    line-height:25px;
+}
+
+/******** about me *******/
+
+.header-about-me {
+    line-height: 40px;
+    height: auto;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px; 
+    opacity:0.8;
+    
+}
+
+.header-about-me nav {
+    display: flex;
+    margin: 0 auto; /* centrer au millieu */
+    width: 600px;   
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+  
+.header-about-me nav a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.header-about-me a:hover {
+    background-image:linear-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+}
+
+.main-all section {
+    display: flex;
+    overflow: auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    margin-bottom:10px;
+}
+
+.main-all article {
+    padding: 5px 40px;
+    box-sizing: border-box;
+    width: 50%;
+    line-height:23px;
+}
+
+.main-all div {
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 50%;
+}
+
+.logo {
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    width:35%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/**************************  Health & Technology *******************/
+
+.main-all article h2 {
+    color: black;
+}
+
+.why-part span {
+
+    font-size: 1.8em;
+}
+
+/**************************** Work Experience **********************/
+
+.WE-image img{
+    border: solid;
+    border-color: white;
+    border-width: 1em;
+    opacity:0.8;
+}
+
+.nav-WE ul{
+    line-height: 23px;
+}
+
+.nav-WE ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-WE ul li a:hover {
+    background-image:linear-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+}
+
+/*********************** WE Apprentis d'Auteuil **********************/
+
+.AA-image img {
+    border: solid;
+    border-color: white;
+    border-width: 1em;
+    opacity:0.8;
+}
+
+.Task {
+    border-right: 5px dashed white;
+}
+
+.date {
+     text-align: center;
+}
+/*************************** Project *********************************/
+
+.IT-section-menu {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.IT-section-menu nav ul li  {
+    margin-bottom: 20px;
+}
+
+/************************** Project SIN *****************************/
+.section-total {
+    display: flex;
+    justify-content:space-around;
+}
+
+.section-total section {
+    display: flex;
+    overflow: auto;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 8px;
+    margin-bottom:10px;
+
+}
+
+.section-total section article {
+    padding: 5px 40px;
+    box-sizing: border-box;
+    line-height:23px;
+    height: 100%;
+}
+
+.section-total section div {
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.section-presentation {
+    width: 30%;
+}
+
+.section-specification {
+    width: 30%
+}
+
+.section-task {
+    width: 30%
+}
+
+.section-technology {
+    width: 97%;
+    justify-content: center;
+}
+
+/************************************** projet Shopping ***************************/
+.section-technologyUsed {
+    width: 99%;
+    justify-content: center;
+    
+}
+
+.section-technologyUsed article div {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-operation {
+    width: 30%;
+}
+
+.connexion-img {
+    opacity: 0.8;
+    
+
+}
+
+.connexion-img img{
+    border: 1em solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+h1 a {
+    float: right;
+}
+/********************************** projet shopping menu image **********************/
+
+.section-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.section-menu section {
+    line-height: 40px;
+    height: auto;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 8px; 
+    opacity:0.8;
+    text-align: center;
+}
+
+.section-menu section a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display:inline-block;
+    font-size: 1.2em;
+}
+
+.customer{
+    border: 5px dashed white;
+    border-radius: 8px; 
+}
+
+.employee {
+    border: 5px dashed white;
+    border-radius: 8px; 
+}
+
+.section-menu section a:hover {
+    background-image:linear-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+}
+
+/************************* Gallery shopping employee *******************************/
+
+.gallery {  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: thick double whitesmoke;
+    padding: 15px;
+    border-radius: 8px;
+}
+  
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    width: 33%; /* if the width of th epage is 100%, we want to display 3 images per row so 100/3 = 33.3333..%*/
+    margin-bottom: 15px;
+    text-decoration: none; /* we have anchor so we set the text decoration of the anchor to none (we don't want to display the anchor decoration) */
+    color: black; /* by default the color isn't black*/
+    padding: 5px;
+    box-sizing: border-box;
+    border: thick double whitesmoke;
+    border-radius: 8px;
+    
+}
+  
+.gallery-item img {
+    border-radius: 4px;
+}
+  
+.gallery-item caption {
+   margin-top: 5px;
+
+}
+
+.gallery-item caption:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+    color: whitesmoke;
+}
+
+.gallery-item:hover {
+    background-color:#333;   
+}
+
+
+/************************ Carousel Shopping Customer ********************************/
+
+.carousel {
+    position: relative; /* relative position depending on me */
+    /* 
+     this line is very useful to hide the next images for example if you have 18 images store in your JSON object
+     it will just display the current images and hide the previous or next images
+   */
+    overflow: hidden; 
+    width: 700px; /* width of the carousel*/
+    height: 486px; /* height of the carousel*/
+    margin: auto; /* Centering verticaly and horizontally*/
+    border: 1em double  rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.carousel-images img { 
+    width: 700px; /* widht and heigh of the image*/
+    height: 486px;
+}
+
+.carousel-images {
+    position: absolute; /* position: absolute will help us to control the position of our carousel images */
+    z-index: 1; /* It defines the order elements are stacked on the page (Z Axis). */
+    left: 0; /* left position which define an offset to the initial position*/
+    width: 12600px; /* width = 18 images * 1080px = 19 940px */
+    height: 486px;
+    transition: left .5s ease-in-out;/* make a smooth transition when you click on a button */
+}
+  
+.carousel nav {
+    /* This allows us to place the navigation over the images */
+    position: absolute;
+    z-index: 2;
+    /* Size of the carousel element */
+    width: 700px;
+    height: 486px;
+    /* This will centre our buttons vertically, we set the line height to 436px and not 486px because we have a caption of 50px height*/
+    line-height: 436px;
+}
+
+.carousel nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 35pt;
+    padding: 0px 25px;
+    
+    /* Transition whnen you pass you mousse above the nav */
+    transition: all .25s ease;
+    /* we set the oppacity to 0 because we don't want to see the nav when the image is display, the nav will appear only when you pass your mousse above */
+    opacity: 0;
+    background-color: rgba(0,0,0,0.15);
+}
+  
+.carousel nav:hover a {
+    transition: all .25s ease;
+    /* set the opacity to 1 when you pass your mousse above the nav*/
+    opacity: 1;
+    background-color: rgba(0,0,0,0.15);
+}
+  
+.prevButton {
+    float: left;/* Set the pPrevious button to the left*/
+}
+  
+.nextButton {
+    float: right;/* Set the Next button to the right*/
+}
+  
+.carousel-caption {
+    /* Place our caption over our image */
+    position: absolute;
+    z-index: 2;/* same level as our nav*/
+    bottom: 0;/* place the caption at the bottom of the carousel*/
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.15);
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+}
+
+@media(max-width: 600px) {
+    .gallery {
+      width: 100%;
+    }
+    .gallery-item {
+      width: 50%
+    }
+}
+  
+@media(max-width: 500px) {
+    .gallery-item {
+      width: 100%;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .container nav {
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .footer-home {
+        width: 100%;
+    }
+
+    .footer-all nav{
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .header-about-me nav{
+        display:flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-all article {
+        width: 100%;
+    }
+
+    .main-all div {
+        width: 100%;
+    }
+   
+    .IT-section-menu {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1164px){
+    
+    .WE-image img{
+        width:95%
+    }
+
+    .section-presentation article {
+        width: 100%;
+    }
+
+    .section-presentation article div img{
+        width: 100%;
+     }
+    
+}
+
+@media(max-width: 1290px){
+    .AA-image img{
+        width: 90%;
+    }
+
+    .connexion-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media(max-width: 874px){
+    .section-specification {
+        width: 33%;
+    }
+    .section-total article{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Task {
+        border: none;
+        border-bottom: 5px dashed white;
+    }
+}
+
