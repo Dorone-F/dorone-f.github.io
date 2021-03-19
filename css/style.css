@@ -321,16 +321,16 @@ img:hover {
 }
 
 .connexion-img {
-    opacity: 0.8;
-    
-
+    opacity: 0.8; 
 }
 
 .connexion-img img{
     border: 1em solid rgb(255, 255, 255);
     border-radius: 8px;
 }
-
+.presentation a {
+    text-align: center;
+}
 /********************************** projet shopping menu image **********************/
 
 .section-menu {
