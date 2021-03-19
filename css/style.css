@@ -329,7 +329,7 @@ img:hover {
     border-radius: 8px;
 }
 .presentation a img{
-   text-align: center;
+padding:auto;
 }
 /********************************** projet shopping menu image **********************/
 
