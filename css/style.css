@@ -305,7 +305,6 @@ img:hover {
 .section-technologyUsed {
     width: 98%;
     justify-content: center;
-    
 }
 
 .section-technologyUsed article div {
@@ -334,7 +333,7 @@ img:hover {
 }
 .presentation a {
     display: block;
-    margin: auto;
+    text-align: center;
 }
 /********************************** projet shopping menu image **********************/
 
