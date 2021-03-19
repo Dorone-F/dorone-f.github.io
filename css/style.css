@@ -1,9 +1,3 @@
-/*
-* {
-  border: dashed 1px #ccc;
-}
-*/
-
 html, body {
     font-family:'Roboto', sans-serif;  
     background-image:linear-gradient(#e66465, #9198e5);
@@ -307,6 +301,9 @@ img:hover {
     justify-content: center;
 }
 
+.section-technology ul li img {
+    float: left;
+}
 /************************************** projet Shopping ***************************/
 .section-technologyUsed {
     width: 99%;
