@@ -333,6 +333,8 @@ img:hover {
 
 h1 a {
     float: right;
+    text-decoration: none;
+    color: white;
 }
 /********************************** projet shopping menu image **********************/
 
