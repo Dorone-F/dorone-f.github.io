@@ -328,8 +328,8 @@ img:hover {
     border: 1em solid rgb(255, 255, 255);
     border-radius: 8px;
 }
-.presentation a {
-   margin: auto;
+.presentation a img{
+   text-align: center;
 }
 /********************************** projet shopping menu image **********************/
 
