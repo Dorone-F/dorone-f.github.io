@@ -329,6 +329,13 @@ img:hover {
     border-radius: 8px;
 }
 
+.presentation h3 {
+    text-align: center;
+}
+.presentation a {
+    display: block;
+    margin: auto;
+}
 /********************************** projet shopping menu image **********************/
 
 .section-menu {
