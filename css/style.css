@@ -79,14 +79,10 @@ img:hover {
 }
 
 .container  h1{
-
     font-size: 60px;
     color: white;
     opacity:0.8;
-    margin-block-start: 20px;
-    margin-block-end: 0em;
     text-align: center;
-
 }
 
 .container nav {
@@ -98,7 +94,6 @@ img:hover {
     width: 600px;
     line-height: 40px;
     justify-content:space-evenly;
-
 }
 
 .container nav a {
