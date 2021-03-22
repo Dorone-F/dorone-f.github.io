@@ -78,7 +78,7 @@ img:hover {
 
 }
 
-.container  h1{
+.container h1{
     font-size: 60px;
     color: white;
     opacity:0.8;
@@ -94,6 +94,7 @@ img:hover {
     width: 600px;
     line-height: 40px;
     justify-content:space-evenly;
+    margin-bottom:20px;
 }
 
 .container nav a {
