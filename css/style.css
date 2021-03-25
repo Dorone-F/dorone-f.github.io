@@ -10,6 +10,9 @@ html, body {
     width: 100%;   
 }
 
+h4 {
+    text-align: center;
+}
 .footer-all {
     display: table-row;
     height: 1px;
