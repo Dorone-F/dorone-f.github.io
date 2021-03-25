@@ -11,7 +11,7 @@ html, body {
 }
 
 h4 {
-    text-align: center;
+    margin: auto;
 }
 .footer-all {
     display: table-row;
